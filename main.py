@@ -24,6 +24,6 @@ async def read_root(data:data):
     return {"status": res}
 
 if __name__ == "__main__":
-    uvicorn.run(app,host='0.0.0.0',port=5050)
+    uvicorn.run(app,host='0.0.0.0',port=855)
 
 #@reboot nohup /root/ip_checker/.venv/bin/python /root/ip_checker/main.py &
